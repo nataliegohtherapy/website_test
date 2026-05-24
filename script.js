@@ -14,7 +14,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            const subject = encodeURIComponent('Natalie Therapy Enquiry');
+            const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
+            
+            window.location.href = `mailto:nataliegoh.therapy@gmail.com?subject=${subject}&body=${body}`;
+            
+            alert('Your email app will now open with your message ready to send. Thank you!');
             contactForm.reset();
         });
     }
