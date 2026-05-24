@@ -114,6 +114,10 @@ header {
     .menu-toggle {
         display: none;
     }
+
+    nav {
+        gap: 4rem;
+    }
 }
 
 nav a {
