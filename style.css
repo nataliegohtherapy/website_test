@@ -29,17 +29,33 @@ header {
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-nav {
-    display: flex;
-    gap: 2rem;
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-blue);
+    text-decoration: none;
+}
+
+.menu-wrapper {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-label {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--primary-blue);
+    text-transform: uppercase;
+    margin-bottom: 2px;
 }
 
 .menu-toggle {
-    display: none;
+    display: flex;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
@@ -58,11 +74,7 @@ nav {
 }
 
 @media (max-width: 600px) {
-    .nav-container {
-        justify-content: flex-end;
-    }
-
-    .menu-toggle {
+    .menu-wrapper {
         display: flex;
     }
 
@@ -82,6 +94,12 @@ nav {
 
     nav.active {
         display: flex;
+    }
+}
+
+@media (min-width: 601px) {
+    .menu-toggle {
+        display: none;
     }
 }
 
