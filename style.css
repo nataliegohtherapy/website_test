@@ -38,6 +38,7 @@ header {
     font-weight: bold;
     color: var(--primary-blue);
     text-decoration: none;
+    display: none; /* Hidden by default (desktop) */
 }
 
 .menu-wrapper {
@@ -74,6 +75,14 @@ header {
 }
 
 @media (max-width: 600px) {
+    .nav-container {
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: block; /* Show on mobile */
+    }
+
     .menu-wrapper {
         display: flex;
     }
@@ -98,6 +107,10 @@ header {
 }
 
 @media (min-width: 601px) {
+    .nav-container {
+        justify-content: center; /* Center nav on desktop when logo is hidden */
+    }
+
     .menu-toggle {
         display: none;
     }
