@@ -148,11 +148,9 @@ h1, h2, h3 {
 }
 
 .index-hero {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1200');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(135deg, var(--accent-color) 0%, #ffffff 100%);
     color: var(--text-color);
-    padding: 6rem 2rem;
+    padding: 4rem 2rem;
 }
 
 .hero-text-block {
