@@ -1,4 +1,5 @@
-// Handle mobile menu toggle
+document.addEventListener('DOMContentLoaded', () => {
+    // Handle mobile menu toggle
     const menuToggle = document.getElementById('menu-toggle');
     const navMenu = document.querySelector('nav');
     
@@ -9,7 +10,6 @@
     }
 
     // Handle contact form submission
-document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
