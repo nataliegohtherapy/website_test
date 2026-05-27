@@ -238,3 +238,17 @@ input:focus, textarea:focus {
     border-color: var(--primary-blue);
     box-shadow: 0 0 0 2px var(--accent-color);
 }
+
+.funding-logos {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.funding-logos img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
