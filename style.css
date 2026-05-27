@@ -252,3 +252,38 @@ input:focus, textarea:focus {
     width: auto;
     object-fit: contain;
 }
+
+/* Service Sections */
+.service-section {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.service-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.service-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.service-image {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .service-section, .service-section:nth-child(even) {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .service-image {
+        max-width: 100%;
+    }
+}
