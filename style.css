@@ -187,6 +187,34 @@ h1, h2, h3 {
     background: linear-gradient(135deg, var(--accent-color) 0%, #ffffff 100%);
     border-radius: 8px;
     margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-bg-art {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.15;
+    color: var(--primary-blue);
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-bg-art svg {
+    width: 400px;
+    height: 400px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
 }
 
 .index-hero {
