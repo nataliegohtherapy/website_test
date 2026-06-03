@@ -15,6 +15,16 @@ body {
     line-height: 1.6;
 }
 
+.top-banner {
+    background-color: var(--primary-blue);
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
 header {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
