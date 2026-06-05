@@ -1,10 +1,10 @@
 :root {
     --primary-teal: #008080; /* Professional Teal */
     --secondary-teal: #2d8a8a; /* Muted Teal */
-    --bg-color: #f4fafa; /* Very Light Teal / Ice */
+    --bg-color: #f0f9f9; /* Soft Light Teal */
     --text-color: #2d3748; /* Dark Charcoal */
-    --accent-teal: #e6f6f6; /* Pale Teal Accent */
-    --footer-bg: #eef7f7;
+    --accent-teal: #e0f2f2; /* Pale Teal Accent */
+    --footer-bg: #e6f2f2;
 }
 
 body {
