@@ -285,6 +285,30 @@ input:focus, textarea:focus {
     object-fit: cover;
 }
 
+/* Meet the OT Section */
+.meet-ot-section {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.ot-thumbnail {
+    flex-shrink: 0;
+}
+
+.ot-profile-pic {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.ot-text {
+    flex: 1;
+    min-width: 300px;
+}
+
 @media (max-width: 768px) {
     .service-section, .service-section:nth-child(even) {
         flex-direction: column;
@@ -293,5 +317,14 @@ input:focus, textarea:focus {
     
     .service-image {
         max-width: 100%;
+    }
+
+    .meet-ot-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .ot-text {
+        min-width: 100%;
     }
 }
