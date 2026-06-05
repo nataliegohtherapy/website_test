@@ -1,10 +1,10 @@
 :root {
     --primary-blue: #2c7a7b; /* Warm Teal */
     --secondary-green: #689f38; /* Soft Earthy Green */
-    --bg-color: #f7fafc; /* Light Warm Neutral */
+    --bg-color: #fff5f5; /* Soft Coral / Light Peach */
     --text-color: #2d3748; /* Dark Charcoal */
-    --accent-color: #e6fffa; /* Very Light Teal */
-    --footer-bg: #edf2f7;
+    --accent-color: #ffe3e3; /* Lighter Coral Accent */
+    --footer-bg: #fff0f0;
 }
 
 body {
@@ -28,8 +28,8 @@ body {
 }
 
 header {
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     padding: 1rem 0;
     position: sticky;
     top: 0;
