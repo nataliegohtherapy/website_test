@@ -309,6 +309,13 @@ input:focus, textarea:focus {
     min-width: 300px;
 }
 
+.contact-image {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+    mix-blend-mode: multiply; /* Blends white background with the page color */
+}
+
 @media (max-width: 768px) {
     .service-section, .service-section:nth-child(even) {
         flex-direction: column;
