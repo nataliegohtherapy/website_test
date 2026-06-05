@@ -184,13 +184,11 @@ h1, h2, h3 {
 .hero {
     text-align: center;
     padding: 4rem 0;
-    background: linear-gradient(135deg, var(--accent-warm) 0%, #ffffff 100%);
     border-radius: 8px;
     margin-bottom: 2rem;
 }
 
 .index-hero {
-    background: linear-gradient(135deg, var(--accent-warm) 0%, #ffffff 100%);
     color: var(--text-color);
     padding: 4rem 2rem;
 }
@@ -198,10 +196,8 @@ h1, h2, h3 {
 .hero-text-block {
     max-width: 600px;
     margin: 2rem auto 0;
-    background: rgba(255, 255, 255, 0.9);
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 footer {
