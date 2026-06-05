@@ -1,10 +1,10 @@
 :root {
-    --primary-warm: #b05b3b; /* Warm Terracotta */
-    --secondary-warm: #d4a373; /* Muted Ochre */
-    --bg-color: #fdf8f1; /* Soft Warm Cream / Sand */
-    --text-color: #4a3728; /* Deep Earthy Brown */
-    --accent-warm: #f5e8c7; /* Pale Gold/Sand Accent */
-    --footer-bg: #f7ede2;
+    --primary-teal: #008080; /* Professional Teal */
+    --secondary-teal: #2d8a8a; /* Muted Teal */
+    --bg-color: #f4fafa; /* Very Light Teal / Ice */
+    --text-color: #2d3748; /* Dark Charcoal */
+    --accent-teal: #e6f6f6; /* Pale Teal Accent */
+    --footer-bg: #eef7f7;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 .top-banner {
-    background-color: var(--primary-warm);
+    background-color: var(--primary-teal);
     color: white;
     text-align: center;
     padding: 0.8rem 0.5rem;
@@ -48,7 +48,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--primary-warm);
+    color: var(--primary-teal);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ header {
 .menu-label {
     font-size: 0.7rem;
     font-weight: bold;
-    color: var(--primary-warm);
+    color: var(--primary-teal);
     text-transform: uppercase;
     margin-bottom: 2px;
 }
@@ -96,7 +96,7 @@ header {
         display: block;
         width: 25px;
         height: 3px;
-        background-color: var(--primary-warm);
+        background-color: var(--primary-teal);
         border-radius: 3px;
     }
 
@@ -155,19 +155,19 @@ header {
     }
 
     nav a:hover {
-        background-color: var(--accent-warm);
+        background-color: var(--accent-teal);
     }
 }
 
 nav a {
     text-decoration: none;
-    color: var(--primary-warm);
+    color: var(--primary-teal);
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: var(--secondary-warm);
+    color: var(--secondary-teal);
 }
 
 main {
@@ -178,7 +178,7 @@ main {
 }
 
 h1, h2, h3 {
-    color: var(--primary-warm);
+    color: var(--primary-teal);
 }
 
 .hero {
@@ -216,7 +216,7 @@ footer {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--primary-warm);
+    background-color: var(--primary-teal);
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -224,7 +224,7 @@ footer {
 }
 
 .button:hover {
-    background-color: var(--secondary-warm);
+    background-color: var(--secondary-teal);
 }
 
 /* Form Styles */
@@ -243,8 +243,8 @@ input, textarea {
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: var(--primary-warm);
-    box-shadow: 0 0 0 2px var(--accent-warm);
+    border-color: var(--primary-teal);
+    box-shadow: 0 0 0 2px var(--accent-teal);
 }
 
 .funding-logos {
