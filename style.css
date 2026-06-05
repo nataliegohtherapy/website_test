@@ -1,10 +1,10 @@
 :root {
-    --primary-blue: #2c7a7b; /* Warm Teal */
-    --secondary-green: #689f38; /* Soft Earthy Green */
-    --bg-color: #fff5f5; /* Soft Coral / Light Peach */
-    --text-color: #2d3748; /* Dark Charcoal */
-    --accent-color: #ffe3e3; /* Lighter Coral Accent */
-    --footer-bg: #fff0f0;
+    --primary-warm: #b05b3b; /* Warm Terracotta */
+    --secondary-warm: #d4a373; /* Muted Ochre */
+    --bg-color: #fdf8f1; /* Soft Warm Cream / Sand */
+    --text-color: #4a3728; /* Deep Earthy Brown */
+    --accent-warm: #f5e8c7; /* Pale Gold/Sand Accent */
+    --footer-bg: #f7ede2;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 .top-banner {
-    background-color: var(--primary-blue);
+    background-color: var(--primary-warm);
     color: white;
     text-align: center;
     padding: 0.8rem 0.5rem;
@@ -48,7 +48,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--primary-blue);
+    color: var(--primary-warm);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@ header {
 .menu-label {
     font-size: 0.7rem;
     font-weight: bold;
-    color: var(--primary-blue);
+    color: var(--primary-warm);
     text-transform: uppercase;
     margin-bottom: 2px;
 }
@@ -96,7 +96,7 @@ header {
         display: block;
         width: 25px;
         height: 3px;
-        background-color: var(--primary-blue);
+        background-color: var(--primary-warm);
         border-radius: 3px;
     }
 
@@ -155,19 +155,19 @@ header {
     }
 
     nav a:hover {
-        background-color: var(--accent-color);
+        background-color: var(--accent-warm);
     }
 }
 
 nav a {
     text-decoration: none;
-    color: var(--primary-blue);
+    color: var(--primary-warm);
     font-weight: 600;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: var(--secondary-green);
+    color: var(--secondary-warm);
 }
 
 main {
@@ -178,19 +178,19 @@ main {
 }
 
 h1, h2, h3 {
-    color: var(--primary-blue);
+    color: var(--primary-warm);
 }
 
 .hero {
     text-align: center;
     padding: 4rem 0;
-    background: linear-gradient(135deg, var(--accent-color) 0%, #ffffff 100%);
+    background: linear-gradient(135deg, var(--accent-warm) 0%, #ffffff 100%);
     border-radius: 8px;
     margin-bottom: 2rem;
 }
 
 .index-hero {
-    background: linear-gradient(135deg, var(--accent-color) 0%, #ffffff 100%);
+    background: linear-gradient(135deg, var(--accent-warm) 0%, #ffffff 100%);
     color: var(--text-color);
     padding: 4rem 2rem;
 }
@@ -220,7 +220,7 @@ footer {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: var(--primary-blue);
+    background-color: var(--primary-warm);
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -228,7 +228,7 @@ footer {
 }
 
 .button:hover {
-    background-color: var(--secondary-green);
+    background-color: var(--secondary-warm);
 }
 
 /* Form Styles */
@@ -247,8 +247,8 @@ input, textarea {
 
 input:focus, textarea:focus {
     outline: none;
-    border-color: var(--primary-blue);
-    box-shadow: 0 0 0 2px var(--accent-color);
+    border-color: var(--primary-warm);
+    box-shadow: 0 0 0 2px var(--accent-warm);
 }
 
 .funding-logos {
