@@ -185,17 +185,17 @@ h1, h2, h3 {
     text-align: center;
     padding: 4rem 0;
     border-radius: 8px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .index-hero {
     color: var(--text-color);
-    padding: 4rem 2rem;
+    padding: 2rem; /* Reduced padding for the index hero */
 }
 
 .hero-text-block {
     max-width: 600px;
-    margin: 2rem auto 0;
+    margin: 1rem auto 0; /* Reduced margin */
     padding: 2rem;
     border-radius: 8px;
 }
@@ -204,7 +204,7 @@ footer {
     background-color: var(--footer-bg);
     padding: 2rem 0;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 2rem; /* Reduced margin-top */
     border-top: 1px solid #e2e8f0;
 }
 
@@ -266,7 +266,7 @@ input:focus, textarea:focus {
     display: flex;
     gap: 2rem;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem; /* Reduced margin */
 }
 
 .service-section:nth-child(even) {
@@ -291,7 +291,7 @@ input:focus, textarea:focus {
     display: flex;
     gap: 2rem;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem; /* Reduced margin */
 }
 
 .ot-thumbnail {
