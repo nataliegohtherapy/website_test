@@ -281,7 +281,6 @@ input:focus, textarea:focus {
 .service-image {
     max-width: 300px;
     width: 100%;
-    border-radius: 8px;
     object-fit: cover;
     mix-blend-mode: multiply;
 }
@@ -301,8 +300,6 @@ input:focus, textarea:focus {
 .ot-profile-pic {
     max-width: 200px;
     width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     mix-blend-mode: multiply;
 }
 
@@ -318,7 +315,6 @@ input:focus, textarea:focus {
 .contact-image {
     max-width: 400px;
     width: 100%;
-    border-radius: 8px;
     mix-blend-mode: multiply; /* Blends white background with the page color */
 }
 
