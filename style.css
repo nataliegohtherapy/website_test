@@ -68,12 +68,18 @@ header {
 }
 
 @media (max-width: 600px) {
+    .top-banner {
+        display: none;
+    }
+
     .nav-container {
         justify-content: space-between;
     }
 
     .logo span {
-        display: none;
+        display: block;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
     }
 
     .menu-wrapper {
