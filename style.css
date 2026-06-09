@@ -22,7 +22,7 @@ body {
 header {
     background-color: var(--bg-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    padding: 1rem 0;
+    padding: 1rem 0 0 0; /* Removed bottom padding */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -31,7 +31,7 @@ header {
 .nav-container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 2rem 1rem 2rem; /* Added padding here instead */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -294,13 +294,38 @@ h1, h2, h3 {
     }
 }
 
-.get-in-touch-blurb {
-    background-color: #d9eded;
-    padding: 2.5rem !important;
-    border-radius: 12px;
-    margin: 3rem 0;
+.eucalyptus-section {
+    background-color: #8da399; /* Eucalyptus muted green */
+    width: 100%;
+    padding: 4rem 0;
+    margin-top: 3rem;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    color: white;
+}
+
+.eucalyptus-section .get-in-touch-blurb {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0 auto 2rem;
+    padding: 0 !important;
+    max-width: 800px;
+    color: white;
+}
+
+.eucalyptus-section .get-in-touch-blurb p, 
+.eucalyptus-section .get-in-touch-blurb div {
+    color: white !important;
+}
+
+.button-white {
+    background-color: white;
+    color: #8da399;
+    font-weight: bold;
+}
+
+.button-white:hover {
+    background-color: #f0f9f9;
+    color: #7a968a;
 }
 
 footer {
