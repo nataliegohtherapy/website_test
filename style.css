@@ -196,7 +196,14 @@ h1, h2, h3 {
 
 .index-hero {
     color: var(--text-color);
-    padding: 2rem; /* Reduced padding for the index hero */
+    background-image: url('hero-bg.svg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 2rem !important; /* Adding padding and overriding inline if needed */
 }
 
 .hero-text-block {
