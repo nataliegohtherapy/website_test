@@ -1,3 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+* {
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
 :root {
     --primary-teal: #008080; /* Professional Teal */
     --secondary-teal: #2d8a8a; /* Muted Teal */
@@ -60,6 +71,19 @@ header {
 }
 
 @media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .index-hero, .contact-hero {
+        padding: 4rem 1rem;
+        min-height: 400px;
+    }
+
     .top-banner {
         display: none;
     }
