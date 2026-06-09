@@ -200,29 +200,30 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    min-height: 400px;
+    min-height: 500px;
     color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('coast.png');
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    margin-bottom: 2rem;
-    padding: 4rem 2rem;
+    background: url('coast.png') no-repeat center center;
+    background-size: cover; /* This will crop the image to fill the space and hide white borders */
+    width: 100%;
+    margin-bottom: 3rem;
+    padding: 6rem 2rem;
 }
 
 .hero-content h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Shadow for readability without the filter */
 }
 
 .hero-content p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .hero-image {
