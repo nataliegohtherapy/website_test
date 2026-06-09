@@ -282,6 +282,15 @@ h1, h2, h3 {
     }
 }
 
+.get-in-touch-blurb {
+    background-color: #d9eded;
+    padding: 2.5rem !important;
+    border-radius: 12px;
+    margin: 3rem 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
 footer {
     background-color: var(--footer-bg);
     padding: 2rem 0;
