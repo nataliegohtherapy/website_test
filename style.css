@@ -481,7 +481,7 @@ input:focus, textarea:focus {
     }
 
     .meet-ot-section {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
     }
 
