@@ -210,8 +210,20 @@ h1, h2, h3 {
     background-image: url('coast.png');
 }
 
+.about-hero {
+    background-image: url('about_natalie_green.png');
+}
+
+.approach-hero {
+    background-image: url('ot_services_green.png');
+}
+
+.faq-hero {
+    background-image: url('faq_green.png');
+}
+
 .contact-hero {
-    background-image: url('big_north.png');
+    background-image: url('contact_green.png');
 }
 
 .hero-content h1 {
