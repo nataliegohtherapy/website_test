@@ -484,6 +484,10 @@ input:focus, textarea:focus {
     mix-blend-mode: multiply;
 }
 
+.service-image-small {
+    max-width: 240px; /* 20% smaller than 300px */
+}
+
 /* Meet the OT Section */
 .meet-ot-section {
     display: flex;
