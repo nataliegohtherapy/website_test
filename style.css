@@ -24,6 +24,7 @@ body {
     color: var(--text-color);
     margin: 0;
     line-height: 1.6;
+    padding-top: 70px; /* Offset for fixed header */
 }
 
 .top-banner {
@@ -34,8 +35,10 @@ header {
     background-color: var(--bg-color);
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     padding: 1rem 0 0 0; /* Removed bottom padding */
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 
