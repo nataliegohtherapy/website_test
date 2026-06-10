@@ -522,7 +522,12 @@ input:focus, textarea:focus {
     }
     
     .service-image {
-        max-width: 100%;
+        max-width: 80%; /* 20% smaller than full width */
+        margin: 0 auto;
+    }
+
+    .service-image-small {
+        max-width: 65%; /* 35% smaller than full width */
     }
 
     .meet-ot-section {
