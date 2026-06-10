@@ -226,8 +226,10 @@ h1, h2, h3 {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    margin-bottom: 0;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 6rem 2rem;
+    border-radius: 8px; /* Added slight rounding since it's no longer full-screen */
 }
 
 .index-hero {
