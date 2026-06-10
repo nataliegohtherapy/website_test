@@ -347,12 +347,25 @@ h1, h2, h3 {
 }
 
 .eucalyptus-section {
-    background-color: #a7bcb2; /* Lighter, more muted eucalyptus green */
+    background-color: #868e7e; /* Muted olive green */
     width: 100%;
     padding: 4rem 0;
     margin-top: 3rem;
     text-align: center;
     color: white;
+}
+
+.bottom-full-image {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-full-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .eucalyptus-section .get-in-touch-blurb {
