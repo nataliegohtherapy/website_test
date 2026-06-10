@@ -80,8 +80,10 @@ header {
     }
 
     .index-hero, .contact-hero {
-        padding: 4rem 1rem;
-        min-height: 400px;
+        padding: 3rem 1rem;
+        min-height: 300px; /* Reduced height on mobile */
+        background-size: cover; /* Adjusts better to mobile screens */
+        background-position: center;
     }
 
     .top-banner {
