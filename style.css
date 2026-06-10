@@ -110,8 +110,6 @@ header {
     .nav-container {
         justify-content: space-between;
     }
-    /* Rest of mobile styles... */
-}
 
     .logo span {
         display: block;
