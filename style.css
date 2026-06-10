@@ -82,11 +82,15 @@ header {
         font-size: 1.1rem;
     }
 
-    .index-hero, .contact-hero {
-        padding: 3rem 1rem;
-        min-height: 300px;
-        background-size: cover !important; /* Forces image to fill space and crop to fit */
+    .hero {
+        aspect-ratio: 2 / 1; /* More vertical ratio for mobile */
+        background-size: 150% !important; /* Zoomed in look */
         background-position: center;
+    }
+
+    .index-hero {
+        aspect-ratio: auto;
+        min-height: 400px;
     }
 
     .top-banner {
@@ -152,6 +156,10 @@ header {
     .mobile-profile {
         display: block !important;
     }
+}
+
+.home-main {
+    margin-top: 4rem; /* Spacing between banner and Meet the OT */
 }
 
 @media (min-width: 601px) {
