@@ -213,52 +213,28 @@ h1, h2, h3 {
 }
 
 .hero {
-    text-align: center;
-    padding: 4rem 0;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-}
-
-.about-hero, .approach-hero, .faq-hero {
-    min-height: 200px; /* Reduced height to remove sky */
-    background-size: cover;
-    background-position: center;
-    padding: 3rem 2rem;
-}
-
-.index-hero, .contact-hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 450px;
-    color: white;
-    background-size: 125%; /* Zoomed in effect */
-    background-position: center 80%; /* Keeps visual elements in lower half */
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 100%; /* Extremely wide panoramic */
-    margin: 0 auto;
-    padding: 6rem 2rem;
-    border-radius: 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.about-hero, .approach-hero, .faq-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    background-repeat: no-repeat;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    aspect-ratio: 6 / 1;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.about-hero, .approach-hero, .faq-hero, .index-hero, .contact-hero {
+    min-height: auto;
 }
 
 .index-hero::before, .about-hero::before, .approach-hero::before, .faq-hero::before, .contact-hero::before {
@@ -276,26 +252,27 @@ h1, h2, h3 {
     position: relative;
     z-index: 2;
     max-width: 60%; /* Keeps content within central 60% */
+    padding: 2rem 0;
 }
 
 .index-hero {
-    background-image: url('coast.png');
+    background-image: url('home_banner.png');
 }
 
 .about-hero {
-    background-image: url('about_natalie_green.png');
+    background-image: url('about_banner.png');
 }
 
 .approach-hero {
-    background-image: url('ot_services_green.png');
+    background-image: url('services_banner.png');
 }
 
 .faq-hero {
-    background-image: url('faq_green.png');
+    background-image: url('faq_banner.png');
 }
 
 .contact-hero {
-    background-image: url('contact_green.png');
+    background-image: url('contact_banner.png');
 }
 
 .hero-content h1 {
