@@ -257,6 +257,9 @@ h1, h2, h3 {
 
 .index-hero {
     background-image: url('home_banner.png');
+    aspect-ratio: auto;
+    min-height: 450px;
+    background-position: center;
 }
 
 .about-hero {
