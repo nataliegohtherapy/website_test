@@ -364,7 +364,7 @@ h1, h2, h3 {
 }
 
 .eucalyptus-section {
-    background-color: #8da399; /* Eucalyptus muted green */
+    background-color: #a7bcb2; /* Lighter, more muted eucalyptus green */
     width: 100%;
     padding: 4rem 0;
     margin-top: 3rem;
@@ -388,13 +388,13 @@ h1, h2, h3 {
 
 .button-white {
     background-color: white;
-    color: #8da399;
+    color: #a7bcb2;
     font-weight: bold;
 }
 
 .button-white:hover {
     background-color: #f0f9f9;
-    color: #7a968a;
+    color: #96aa9f;
 }
 
 footer {
