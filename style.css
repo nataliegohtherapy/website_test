@@ -530,7 +530,7 @@ input:focus, textarea:focus {
     }
 
     .service-image-small {
-        max-width: 65%; /* 35% smaller than full width */
+        max-width: 50%; /* Further 15% reduction */
     }
 
     .meet-ot-section {
