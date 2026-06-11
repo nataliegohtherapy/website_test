@@ -190,7 +190,7 @@ nav a:hover {
 
 main {
     max-width: 800px;
-    margin: 0.5rem auto 2rem;
+    margin: clamp(2rem, 5vh, 4rem) auto 2rem; /* Responsive top margin for gap below banner */
     padding: 0 1rem;
     min-height: 80vh;
 }
