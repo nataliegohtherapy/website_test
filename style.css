@@ -274,26 +274,26 @@ h1, h2, h3 {
 }
 
 .index-hero {
-    background-image: url('home_banner.png');
+    background-image: url('hoho.png');
     aspect-ratio: auto;
     min-height: 450px;
     background-position: center;
 }
 
 .about-hero {
-    background-image: url('about_banner.png');
+    background-image: url('otot.png');
 }
 
 .approach-hero {
-    background-image: url('services_banner.png');
+    background-image: url('sese.png');
 }
 
 .faq-hero {
-    background-image: url('faq_banner.png');
+    background-image: url('fafa.png');
 }
 
 .contact-hero {
-    background-image: url('contact_banner.png');
+    background-image: url('coco.png');
 }
 
 .hero-content h1 {
