@@ -337,10 +337,33 @@ h1, h2, h3 {
 .eucalyptus-section {
     background-color: #868e7e; /* Muted olive green */
     width: 100%;
-    padding: 4rem 0;
-    margin-top: 3rem;
+    padding: 2.5rem 1.5rem; /* Reduced vertical padding, added horizontal for mobile */
+    margin-top: 1rem; /* Reduced from 3rem to remove large white space */
     text-align: center;
     color: white;
+}
+
+.services-list-title {
+    font-size: clamp(1.1rem, 4vw, 1.25rem);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.services-list {
+    display: block; /* Changed from inline-block to handle mobile better */
+    text-align: left;
+    margin: 0 auto 2rem;
+    max-width: fit-content; /* Centers the list while keeping it left-aligned */
+    font-size: clamp(1rem, 3.5vw, 1.1rem);
+    line-height: 1.8;
+}
+
+.services-intro-cta {
+    font-size: clamp(1rem, 3.5vw, 1.1rem);
+    line-height: 1.6;
+    margin: 0;
 }
 
 .bottom-full-image {
