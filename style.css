@@ -83,28 +83,29 @@ header {
     }
 
     .hero {
-        aspect-ratio: 1 / 1; /* Squarer for better mobile framing */
+        aspect-ratio: auto;
+        min-height: 300px;
         background-size: cover !important;
-        background-position: center 80%; /* Pushes landscape features to the lower third */
+        background-position: center;
     }
 
     .index-hero {
-        aspect-ratio: auto;
         min-height: 500px;
+        background-position: center 80%; /* Pushes landscape features to the lower third for index only */
     }
 
     /* Mobile specific overlay for central safe area */
     .index-hero::before, .about-hero::before, .approach-hero::before, .faq-hero::before, .contact-hero::before {
-        background: radial-gradient(circle at center, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.1) 40%, rgba(0,0,0,0.4) 100%);
+        background: rgba(0, 0, 0, 0.3); /* Darker overlay for better text contrast */
     }
 
     .hero-content {
-        max-width: 85%; /* Slightly wider than 50% for text readability on mobile */
-        height: 40%;
+        max-width: 90%; 
+        height: auto;
+        padding: 3rem 1rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0;
     }
 
     .nav-container {
