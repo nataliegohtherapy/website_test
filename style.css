@@ -190,9 +190,23 @@ nav a:hover {
 
 main {
     max-width: 800px;
-    margin: clamp(2rem, 5vh, 4rem) auto 2rem; /* Responsive top margin for gap below banner */
+    margin: clamp(2rem, 5vh, 4rem) auto 2rem; /* Default responsive top margin */
     padding: 0 1rem;
-    min-height: 80vh;
+    min-height: 80vh; /* Keeps footer at bottom on short pages */
+}
+
+/* Page Specific Spacing Refinements */
+.home-main-content {
+    min-height: auto; /* Removes excessive white space below Meet the OT */
+    margin-bottom: 0;
+}
+
+.about-main-content {
+    margin-top: clamp(3rem, 8vh, 6rem); /* Larger gap below banner specifically for About page on desktop */
+}
+
+.contact-main-content, .faq-main-content {
+    /* Keep default min-height for these pages to avoid floating footers */
 }
 
 h1, h2, h3 {
