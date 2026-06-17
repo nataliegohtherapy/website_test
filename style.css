@@ -205,6 +205,21 @@ main {
     margin-top: clamp(3rem, 8vh, 6rem); /* Larger gap below banner specifically for About page on desktop */
 }
 
+.profile-pic-container {
+    max-width: 300px;
+    margin-top: 5rem;
+}
+
+@media (max-width: 600px) {
+    .about-main-content {
+        margin-top: 1.5rem; /* Halved from 3rem */
+    }
+    
+    .profile-pic-container {
+        margin-top: 2.5rem; /* Halved from 5rem */
+    }
+}
+
 .contact-main-content, .faq-main-content {
     /* Keep default min-height for these pages to avoid floating footers */
 }
